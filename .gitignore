@@ -1,0 +1,16 @@
+/node_modules
+/.next
+/.pnp
+.pnp.js
+
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+.env*.local
+
+local
+
+.vercel
