@@ -5,13 +5,16 @@
   "license": "MIT",
   "author": "Takuya Otaku",
   "scripts": {
-    "dev": "next dev -H 0.0.0.0",
+    "dev": "next dev -H 0.0.0.0 -p 1557",
     "build": "next build",
     "start": "next start",
     "prettier": "prettier -write .",
-    "lint": "next lint"
+    "lint": "next lint",
+    "export": "next export",
+    "clean": "rm -rf .next out"
   },
   "dependencies": {
+    "@chakra-ui/icons": "^2.0.6",
     "@chakra-ui/react": "^2.2.4",
     "@emotion/react": "^11.10.0",
     "@emotion/styled": "^11.10.0",
