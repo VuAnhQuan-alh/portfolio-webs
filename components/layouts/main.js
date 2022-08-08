@@ -10,7 +10,7 @@ const Main = ({ children, router }) => {
         <link
           type="image/x-icon"
           rel="shortcut icon"
-          href={`${router.basePath}/favicon.ico`}
+          href="/images/favicon.ico"
         />
         <title>Information - ALH</title>
       </Head>

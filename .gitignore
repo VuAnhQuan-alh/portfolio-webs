@@ -1,6 +1,7 @@
 /node_modules
 /.next
 /.pnp
+/dist
 .pnp.js
 
 npm-debug.log*
