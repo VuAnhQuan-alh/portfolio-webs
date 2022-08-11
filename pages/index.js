@@ -80,7 +80,7 @@ const Page = () => {
 
         <Section delay={0.2}>
           <Heading as="h3" variant="section-title">
-            Sinh thời
+            Thông tin chính chủ
           </Heading>
           <BioSection>
             <BioYear>2001</BioYear>
