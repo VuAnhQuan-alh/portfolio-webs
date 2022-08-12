@@ -17,8 +17,10 @@ const LogoBox = styled.span`
     transform: rotate(-20deg);
   }
 
-  &:hover img {
-    transform: rotate(-4deg);
+  @media (min-width: 768px) {
+    &:hover img {
+      transform: rotate(0deg);
+    }
   }
 `
 
@@ -26,7 +28,7 @@ const Logo = () => {
   const footPrintImg = `/images/footprint${useColorModeValue(
     '-light',
     '-dark'
-  )}.png`
+  )}.webp`
 
   return (
     <Link href="/">
