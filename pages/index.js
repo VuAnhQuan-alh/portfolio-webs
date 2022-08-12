@@ -36,7 +36,7 @@ const Page = () => {
             <Heading as="h2" variant="page-title">
               Vũ Anh Quân
             </Heading>
-            <p>©&nbsp;Copyright Craftzman ( 07/08/2022 )</p>
+            <p>©&nbsp;Copyright Craftsman ( 07/08/2022 )</p>
           </Box>
           <Box
             flexShrink={0}
@@ -83,15 +83,15 @@ const Page = () => {
             Thông tin chính chủ
           </Heading>
           <BioSection>
-            <BioYear>2001</BioYear>
+            <BioYear>20/05/2001</BioYear>
             Sinh ra và lớn lên tại Nghệ An, Việt Nam.
           </BioSection>
           <BioSection>
-            <BioYear>2022</BioYear>
+            <BioYear>08/2019 - 05/2022</BioYear>
             Hoàn thành chương trình Thiết kế Website tại FPT Polytechnic
           </BioSection>
           <BioSection>
-            <BioYear>2021 đến nay</BioYear>
+            <BioYear>05/2021 - nay</BioYear>
             Làm việc tại Sphinx JSC
           </BioSection>
         </Section>
