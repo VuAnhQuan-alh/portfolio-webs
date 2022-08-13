@@ -84,21 +84,23 @@ const Page = () => {
           </Heading>
           <BioSection>
             <BioYear>20/05/2001</BioYear>
-            Sinh ra và lớn lên tại Nghệ An, Việt Nam.
+            <Paragraph>Sinh ra và lớn lên tại Nghệ An, Việt Nam.</Paragraph>
           </BioSection>
           <BioSection>
             <BioYear>08/2019 - 05/2022</BioYear>
-            Hoàn thành chương trình Thiết kế Website tại FPT Polytechnic
+            <Paragraph>
+              Hoàn thành chương trình Thiết kế Website tại FPT Polytechnic
+            </Paragraph>
           </BioSection>
           <BioSection>
             <BioYear>05/2021 - nay</BioYear>
-            Làm việc tại Sphinx JSC
+            <Paragraph>Làm việc tại Sphinx JSC</Paragraph>
           </BioSection>
         </Section>
 
         <Section delay={0.3}>
           <Heading as="h3" variant="section-title">
-            I »
+            ..............
           </Heading>
           <Paragraph>
             <Link href="https://soundcloud.com/hoai-linh-946093491/vi-me-anh-bat-chia-tay-miu-le-x-karik-x-cdk-darling-mix">
