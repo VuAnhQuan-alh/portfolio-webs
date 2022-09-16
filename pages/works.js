@@ -10,9 +10,9 @@ import thumbnail_node from './../public/images/_node.png'
 
 const Works = () => {
   return (
-    <Layout>
+    <Layout title="Works">
       <Container>
-        <Heading as="h3" fontSize={20} mb={4}>
+        <Heading variant="page-title" as="h3" fontSize={20} mb={4}>
           Works
         </Heading>
 

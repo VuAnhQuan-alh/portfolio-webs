@@ -36,7 +36,7 @@ const Page = () => {
             <Heading as="h2" variant="page-title">
               Vũ Anh Quân
             </Heading>
-            <p>©&nbsp;Copyright Craftsman ( 07/08/2022 )</p>
+            <Paragraph>Copyright Craftsman ( 07/08/2022 )</Paragraph>
           </Box>
           <Box
             flexShrink={0}
@@ -103,7 +103,10 @@ const Page = () => {
             ..............
           </Heading>
           <Paragraph>
-            <Link href="https://soundcloud.com/hoai-linh-946093491/vi-me-anh-bat-chia-tay-miu-le-x-karik-x-cdk-darling-mix">
+            <Link
+              target="_blank"
+              href="https://soundcloud.com/hoai-linh-946093491/vi-me-anh-bat-chia-tay-miu-le-x-karik-x-cdk-darling-mix"
+            >
               Music
             </Link>
             , Chill, Relax, Sleep, Middle Boy

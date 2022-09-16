@@ -23,8 +23,8 @@ const Layout = ({ children, title }) => (
           <title>{title} - ALH</title>
         </Head>
       )}
-      {children}
       <GridItemStyle />
+      {children}
     </>
   </motion.article>
 )

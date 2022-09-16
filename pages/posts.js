@@ -12,7 +12,7 @@ const Posts = () => {
   return (
     <Layout title="Posts">
       <Container>
-        <Heading as="h4" fontSize={20} mb={4}>
+        <Heading as="h4" variant="page-title" fontSize={20} mb={4}>
           Popular Posts
         </Heading>
 
