@@ -93,8 +93,12 @@ const Page = () => {
             </Paragraph>
           </BioSection>
           <BioSection>
-            <BioYear>05/2021 - nay</BioYear>
+            <BioYear>05/2021 - 03/2023</BioYear>
             <Paragraph>Làm việc tại Sphinx JSC</Paragraph>
+          </BioSection>
+          <BioSection>
+            <BioYear>04/2023 - nay</BioYear>
+            <Paragraph>Làm việc tại HOLA TECH</Paragraph>
           </BioSection>
         </Section>
 
@@ -109,7 +113,7 @@ const Page = () => {
             >
               Music
             </Link>
-            , Chill, Relax, Sleep, Middle Boy
+            , Chill, Read Book, Relax, Sleep, Middle Boy
           </Paragraph>
         </Section>
       </Container>
